@@ -2639,6 +2639,7 @@ a.light-color {
 h3.uxora-sidemenu-title {
   text-align: center;
   margin-bottom: 30px;
+  color: var(--heading-color);
 }
 
 .uxora-demo-title {
@@ -2647,8 +2648,9 @@ h3.uxora-sidemenu-title {
 }
 
 .uxora-demo-title h3 {
-  font-size: 20px;
+  font-size: 20px !important;
   margin: 0;
+  color: var(--heading-color);
 }
 
 .uxora-offcanves-sidebar::-webkit-scrollbar-track {

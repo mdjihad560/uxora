@@ -2655,7 +2655,7 @@ h3.uxora-sidemenu-title {
 }
 
 .uxora-demo-title h3 {
-  font-size: 20px;
+  font-size: 20px !important;
   margin: 0;
 }
 
