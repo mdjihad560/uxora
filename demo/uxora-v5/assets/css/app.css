@@ -3887,25 +3887,20 @@ textarea::placeholder {
   }
 }
 
+.uxora-animation-btn-wrap {
+  display: flex;
+}
+.uxora-animation-btn-wrap.center {
+  justify-content: center;
+}
+
 .uxora-animation-btn {
   border-radius: 10px;
   transition: all 0.4s !important;
-  padding: 3px 3px;
+  padding: 2px 2px;
+  transition: all 0.4s;
   animation: rotation 3s linear 0s infinite;
-}
-.uxora-animation-btn.btn2 {
-  width: 216px;
-}
-.uxora-animation-btn.btn3 {
-  width: 216px;
-  margin: 0 auto;
-}
-@media (max-width: 991px) {
-  .uxora-animation-btn.btn4 {
-    width: 216px;
-    margin: 0 auto;
-    margin-top: 30px;
-  }
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
 }
 .uxora-animation-btn:hover {
   background: linear-gradient(var(--gradient-angle), rgb(255, 255, 255), rgb(0, 0, 0));
