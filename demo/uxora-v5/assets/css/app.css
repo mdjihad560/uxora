@@ -2705,6 +2705,9 @@ h3.uxora-sidemenu-title {
 .uxora-iconbox-card {
   padding-top: 24px;
 }
+.uxora-iconbox-card img {
+  border-radius: 15px;
+}
 @media (max-width: 991px) {
   .uxora-iconbox-card {
     text-align: center;
